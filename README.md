@@ -1,15 +1,15 @@
 # Adult Income Analysis (Python)
 
-Exploratory data analysis of the UCI Adult Census dataset to understand which factors are linked to earning more than 50K per year.
+Exploratory data analysis of the UCI Adult Census dataset to identify which factors are linked to earning more than 50K per year and how strong those links are.
 
 ## Goal
-Clean the data, explore it, and answer simple business questions about age, education, work class, and gender in relation to income.
+Clean the data, compare income across groups (education, age, hours worked, workclass, occupation, marital status, gender), and test whether the differences are real or just noise.
 
 ## Dataset
-UCI Adult Census Income dataset (`adult.csv`): age, workclass, education, gender, income, and other columns. Missing values are marked with "?".
+UCI Adult Census Income dataset (`adult.csv`): about 48,000 records from the 1994 US Census, with age, workclass, education, occupation, gender, hours per week, income and other columns. Missing values are marked with "?".
 
 ## Tools
-Python, pandas, NumPy, Matplotlib, Seaborn, Jupyter Notebook
+Python, pandas, NumPy, Matplotlib, Seaborn, SciPy, Jupyter Notebook
 
 ## What I did
 - **Data quality:** checked missing values and duplicates, and compared income between complete and incomplete rows before deleting anything
