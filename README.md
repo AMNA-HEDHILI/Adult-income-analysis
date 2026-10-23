@@ -12,11 +12,12 @@ UCI Adult Census Income dataset (`adult.csv`): age, workclass, education, gender
 Python, pandas, NumPy, Matplotlib, Seaborn, Jupyter Notebook
 
 ## What I did
-- **Cleaning:** replaced "?" with missing values, dropped rows with missing values, removed duplicates, dropped unneeded columns
-- **Univariate analysis:** distribution of age and workclass
-- **Bivariate analysis:** income compared with age and with education level
-- **Feature preparation:** converted income to 0 and 1, converted workclass to a category type
-- **Questions answered:** which workclass has the highest share of high earners, how many people hold a Bachelor's or Master's degree, and the share of high earners by gender
+- **Data quality:** checked missing values and duplicates, and compared income between complete and incomplete rows before deleting anything
+- **Cleaning:** replaced "?" with missing values, dropped incomplete rows and duplicates
+- **Income rate by group:** education, age group, weekly hours, workclass, occupation, marital status, gender, capital gains
+- **Gender gap check:** compared men and women at the same working hours
+- **Correlations:** heatmap of the numeric variables against income
+- **Statistical tests:** chi-square tests and Cramér's V to measure how strong each link is
 
 ## Key findings
 - **Data quality:** The dataset has 48,842 records. About 5.7% had a missing workclass and 5.8% a missing occupation (marked "?"). After removing missing values and 47 duplicates, 45,175 clean records remained.
