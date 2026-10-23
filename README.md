@@ -1,4 +1,4 @@
-# Adult Income Analysis (Python)
+# Adult Income Analysis 
 
 Exploratory data analysis of the UCI Adult Census dataset to identify which factors are linked to earning more than 50K per year and how strong those links are.
 
